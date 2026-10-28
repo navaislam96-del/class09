@@ -1,0 +1,148 @@
+/* All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* All Common CSS End */
+
+/* Header Part Start */
+#headerpart{
+    padding: 40px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  
+}
+.headerFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    column-gap: 30px;
+}
+.menu ul li a{
+    color: #242B36;
+    font-size: 16px;
+    font-weight: 400;
+}
+.headerBtn a{
+    border: 1px solid #417D6E;
+    padding: 10px 18px;
+    border-radius: 500px;
+    color: #242B36;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 10px;
+    transition: all linear 0.4s;
+}
+.headerBtn a:hover{
+    background-color: #007456;
+    color: #fff;
+}
+/* Header Part End */
+
+/* Banner Part Start */
+#bannerpart{
+    padding-top: 180px;
+    padding-bottom: 95px;
+    background: url(../images/Rectangle\ 10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bannerFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.bannerLeft{
+    width: 50%;
+}
+.bannerRight{
+    width: 50%;
+}
+.bannerContent{
+    padding-top: 65px;
+}
+.bannerContent h1{
+  color: #242B36;
+  font-size: 60px;
+  font-weight: 600;
+}
+.bannerContent p{
+  color: #3b4759;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.bannerContent a{
+    padding: 16px 24px;
+    border: 1px solid #007456;
+    border-radius: 8px;
+    color: #007456;
+    margin-right: 10px;
+}
+.bannerContent a:hover{
+    background: #007456;
+    color: #fff;
+}
+.searchGroup{
+    position: relative;
+}
+.bannerContent input{
+    width: 100%;
+    padding: 16px 0 16px 16px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border: 1px solid #C4CBCE;
+  
+}
+.box{
+    height: 48px;
+    width: 48px;
+    background: #FA8C00;
+    border-radius: 8px;
+    position: absolute;
+    right: 0px;
+    top: 26%;
+    transform: translate(-26);
+}
+.box i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+.bannerRight img{
+    width: 100%;
+}
+
+.bannerLastBtn a{
+    padding: 8px 12px;
+    border: 1 px solid #3b4759;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #3b4759;
+}
+.bannerLastBtn{
+    width: 80%;
+}
+/* Banner Part End */
+
